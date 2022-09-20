@@ -45,7 +45,7 @@ def _contour_slices(_slices, cmap="gray", total_levels=6):
         
     plt.show()
     
-def show_slices(_slices, cmap="gray"):
+def _show_slices(_slices, cmap="gray"):
     # This function comes from the nibabel
     # tutorial --> https://nipy.org/nibabel/coordinate_systems.html#introducing-someone
     
